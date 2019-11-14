@@ -1,4 +1,4 @@
-# restful_task_API_interactive
+# Restful_task_API_interactive
 
 Objectives:
 Have an Angular app make an http request to an API when the user clicks a button
