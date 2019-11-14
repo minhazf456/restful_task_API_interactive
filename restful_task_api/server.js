@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 //Database
-mongoose.connect("mongodb://localhost/restful_task_API");
+mongoose.connect("mongodb://localhost/restful_task_Interactive");
 require("./server/config/mongoose.js");
 
 //Routes

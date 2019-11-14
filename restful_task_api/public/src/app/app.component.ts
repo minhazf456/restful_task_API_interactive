@@ -27,7 +27,8 @@ export class AppComponent implements OnInit {
   }
 
   info(idx){
-    this.task = this.tasks[idx];
+    this.task=this.tasks[idx];
+    console.log(this.tasks[idx])
     this.green = true;
   }
 }
